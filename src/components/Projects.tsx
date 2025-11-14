@@ -70,8 +70,10 @@ const Projects = () => {
         "Firebase cloud Firestore",
         "React",
         "MUI",
+       
       ],
       github: "https://github.com/JohnIhab/Topamine-E_Learning-Platform",
+       demo:"http://topamine1.netlify.app"
     },
     {
       title: "Meta Child",
@@ -88,6 +90,7 @@ const Projects = () => {
         "Weather App I developed a responsive Weather App . The application fetches real-time weather data through a public API provided by https://openweathermap.org/api.",
       technologies: ["HTML", "CSS", " JavaScript"],
       github: "https://github.com/emanabdelrhman6272/Weather-App",
+      demo:"https://69169bae4d31f3990add0365--weather-app-eman.netlify.app/"
     },
   ];
 
@@ -165,7 +168,7 @@ const Projects = () => {
                     asChild
                     className="flex-1"
                   >
-                    {/* <a
+                    { <a
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -173,7 +176,7 @@ const Projects = () => {
                     >
                       <ExternalLink className="w-4 h-4" />
                       Demo
-                    </a> */}
+                    </a> }
                   </Button>
                 </CardFooter>
               </Card>
